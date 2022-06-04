@@ -1,0 +1,19 @@
+{
+  "name": "cli-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "expressman": "^1.2.1",
+    "pg": "^8.7.3",
+    "ts-node": "^10.7.0",
+    "typeorm": "^0.3.0",
+    "typescript": "^4.6.2"
+  }
+}
